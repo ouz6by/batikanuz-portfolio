@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "tr": "TÜRKÇE",
+    "en": "İNGİLİZCE",
+    "de": "ALMANCA",
+    "ru": "RUSÇA"
+  },
+  "hero": {
+    "introLabel": "Tanıtım",
+    "musicClip1Label": "Yapay Zeka Müzik Klibi 1",
+    "musicClip2Label": "Yapay Zeka Müzik Klibi 2",
+    "appPromoLabel": "Uygulama Tanıtımı",
+    "title": "BATIKAN UZ",
+    "intro": "GİRİŞ",
+    "music": "MÜZİK",
+    "subtitle": "Yapay Zeka Odaklı Kreatif & Büyüme Uzmanı",
+    "date1": "15 EYLÜL 2025",
+    "date2": "27 ARALIK 2025",
+    "date3": "21 ARALIK 2025",
+    "descIntro": "Kullanılan Araçlar: Veo 3 (Fast), Runway Gen-4 Turbo, Nanobanana Pro, Adobe, CapCut",
+    "descMusic1": "6UZ'un 'Saftım' adlı parçası için hazırlanan yapay zeka destekli müzik klibi. Kullanılan Araçlar: Veo 3 (Fast), Runway Gen-4 Turbo, Nanobanana Pro, Adobe, CapCut",
+    "descMusic2": "6UZ'un 'Özürler Olsun' adlı parçası için hazırlanan yapay zeka destekli müzik klibi. Kullanılan Araçlar: Veo 3.1, Runway Aleph, Runway Gen-4 Turbo, Nanobanana 2, Adobe, CapCut",
+    "descAppPromo": "Realtogen AI için hazırlanan tanıtım filmi. Kullanılan Araçlar: Elevenlabs, Runway Gen-4 Turbo, Renderforest, Adobe, CapCut",
+    "descMain": "Tasarım, yapay zeka ve büyüme (growth) dinamiklerini birleştirerek yenilikçi dijital deneyimler geliştiriyorum."
+  },
+  "experience": {
+    "introTitle": "Hakkımda",
+    "introDesc": "Üretken yapay zeka, performans pazarlaması ve ölçeklenebilir dijital içerik üretiminde uzmanlaşmış; grafik tasarım alanında 6, video kurgu alanında ise 3 yılı aşkın tecrübeye sahip araştırmacı ve kreatif içerik yönlendiricisi.",
+    "workExperience": "İŞ DENEYİMİ",
+    "scrollDown": "Keşfetmek için aşağı kaydırın",
+    "companies": {
+        "zenoz": {
+            "role": "Yapay Zeka Odaklı Pazarlama Yöneticisi",
+            "period": "Haz 2024 – Günümüz",
+            "location": "Ankara, Türkiye (Hibrit)",
+            "desc": "Pazar ve rakip analizi yaparak marka konumlandırma stratejilerini belirlemek ve yüksek potansiyelli hedef kitleleri tespit etmek. Marka kimliğine uygun, veri odaklı ve yapay zeka destekli yaratıcı içerikler geliştirmek.\n\nDijital platformlarda aylık aralığı $8K–$10K olan ücretli reklam bütçelerini yönetmek. Kampanya performanslarını anlık olarak takip etmek, hedefleme ve kreatifleri optimize ederek dönüşüm oranlarını ve genel reklam karlılığını maksimize etmek."
+        },
+        "sanaldrone": {
+            "role": "Yapay Zeka Kreatif ve Performans Yöneticisi",
+            "period": "Haz 2024 – Günümüz",
+            "location": "Online",
+            "desc": "Gayrimenkul ve yatırım sektörüne özel geliştirilen yapay zeka odaklı dijital reklam çözümlerine öncülük etmek. Sektörel dinamikleri ve yatırımcı reflekslerini analiz ederek yüksek dönüşüm odaklı, yapay zeka üretimi görsel ve video kampanyalar kurgulamak.\n\nİnşaat firmaları ve gayrimenkul projeleri için yenilikçi, ölçeklenebilir dijital reklam stratejileri tasarlamak. Proje bilinirliğini artıran, nitelikli yatırımcıları çeken ve markaların rekabetçi piyasa içerisindeki konumlarını güçlendiren trend odaklı reklam formatları geliştirmek. \n\nKonsept yaratımından, senaryo yazımına, görsel tasarımdan son montaja dek tüm yaratıcı üretim süreçlerini yönetmek. Algıyı koruyarak sürdürülebilir büyüme, operasyonel verimlilik ve müşteri memnuniyeti artışı adına yüksek bütçeli performans kampanyalarını optimize etmek."
+        },
+        "frost": {
+            "role": "Grafik Tasarımcı ve Video Kurgucu",
+            "period": "Haz 2023 – Ara 2025",
+            "location": "Online",
+            "desc": "Sağlık, gayrimenkul ve inşaat sektöründeki markalar için görsel kimlik kılavuzlarına uygun, kreatif sosyal medya içerikleri ve kurumsal iletişim materyalleri tasarlamak.\n\nMarkaların dijital kampanya hedeflerine yönelik, hedef kitle etkileşimini artıran, sosyal medya algoritmalarına uyumlu kısa form video içeriklerinin ve tanıtım filmlerinin kurgusunu/yapımını gerçekleştirmek."
+        },
+        "selected": {
+            "role": "Girişim Tasarımcısı (Venture Builder & Designer)",
+            "period": "2022 – Günümüz",
+            "location": "Online",
+            "desc": "• StudioBytes: 900+ üyeye sahip bir dijital topluluğun idaresi ve eşzamanlı çeşitli oyun projelerinin geliştirilmesi.\n• Simpl.: Yenilikçi ve minimal yaklaşıma sahip bir dijital ürün için marka kimliği dizaynından, reklam operasyonlarına kadar tüm sürecin yönetimi.\n• Load Find App: Lojistik sektörüne yönelik bir girişimin baştan uca kullanıcı deneyimi (UI/UX) tasarımı, arayüz geliştirmesi (Frontend) ve reklam stratejisinin uçtan uca yönetimi.\n• TorqueParfum: Bireysel kullanıcıya yönelik modern araç kokusu markasının operasyonel faaliyete geçirilmesi.\n• AugustWear: Taktiksel giyim ve outdoor spor modası odağında inovatif bir e-ticaret markasının kuruluşu.\n• AI Influencer Projesi: Yapay zeka ile hayata geçirilen sanal bir karakterin tamamen organik yollarla 20.000+ kullanıcıya ulaşan sosyal medya macerasının tasarlanması."
+        }
+    },
+    "carouselGroups": {
+      "musicInfo": "Müzik Klibi & Tanıtım",
+      "clothing": "Giyim Markaları",
+      "influencer": "AI Influencer",
+      "advertising": "Reklam & Dijital İçerik"
+    }
+  },
+  "skills": {
+    "title": "YETENEKLER",
+    "education": "EĞİTİM",
+    "certifications": "SERTİFİKALAR",
+    "items": {
+      "genAI": "Üretken (Generative) AI",
+      "promptEng": "İstem (Prompt) Mühendisliği",
+      "perfMarketing": "Performans Pazarlama",
+      "paidMedia": "Dijital Reklam Yönetimi",
+      "metaAds": "Meta Ads",
+      "creativeStrat": "Kreatif Strateji & Özgünlük",
+      "uiux": "Arayüz ve Deneyim Tasarımı (UI/UX)",
+      "productDev": "Ürün Geliştirme",
+      "creativeAuto": "Kreatif Üretim Otomasyonu",
+      "videoEdit": "Kurgu & Post Prodüksiyon",
+      "graphicDesign": "Grafik İletişim & Tasarım",
+      "growthStrat": "Büyüme (Growth) Dinamikleri"
+    },
+    "edu": {
+      "akdeniz": {
+        "school": "Akdeniz Üniversitesi",
+        "desc": "Yönetim Bilişim Sistemleri (MIS)"
+      },
+      "anadolu": {
+        "school": "Anadolu Üniversitesi",
+        "desc": "Emlak ve Emlak Yönetimi"
+      }
+    },
+    "certs": {
+        "python": "Sıfırdan İleri Seviye Python Programlama",
+        "mlApps": "Python ile Makine Öğrenmesi Uygulamaları",
+        "ml": "Makine Öğrenmesi (Machine Learning)",
+        "deepLearning": "Derin Öğrenmeye (Deep Learning) Giriş",
+        "aiIntro": "Yapay Zeka Disiplinine Giriş",
+        "teamBuilding": "Kurum İçi İletişim ve Liderlik Kuramları",
+        "itLaw": "Bilişim ve Teknoloji Hukuku",
+        "googleCloud": "Google Cloud Etkinlik Sertifikası",
+        "gameMarketing": "Oyun Ekosisteminde Pazarlama",
+        "socialMedia": "Sosyal Medya ve Dijital Strateji Uzmanlığı",
+        "english": "İngilizce Dili - B1 Seviyesi",
+        "communication": "Profesyonel İletişim Stratejileri"
+    }
+  },
+  "contact": {
+    "whatsNext": "Sırada Ne Var?",
+    "letsWork": "BİRLİKTE ÇALIŞALIM",
+    "gdPortfolioPrompt": "Grafik tasarım portfolyomu ve örnek çalışmalarımı incelemek ister misiniz?",
+    "gdPortfolioBtn": "Grafik Tasarım Portfolyosunu İncele",
+    "allRights": "Tüm Hakları Saklıdır.",
+    "designedWith": "Yapay zeka araçları kullanılarak, tutkuyla tasarlandı."
+  }
+}

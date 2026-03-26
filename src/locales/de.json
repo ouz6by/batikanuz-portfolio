@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "tr": "TÜRKÇE",
+    "en": "İNGİLİZCE",
+    "de": "ALMANCA",
+    "ru": "RUSÇA"
+  },
+  "hero": {
+    "introLabel": "Einführung",
+    "musicClip1Label": "KI-Musikvideo 1",
+    "musicClip2Label": "KI-Musikvideo 2",
+    "appPromoLabel": "App-Promo",
+    "title": "BATIKAN UZ",
+    "intro": "INTRO",
+    "music": "MUSIK",
+    "subtitle": "KI-Gestützter Kreativ- & Wachstumsspezialist",
+    "date1": "15. SEPTEMBER 2025",
+    "date2": "27. DEZEMBER 2025",
+    "date3": "21. DEZEMBER 2025",
+    "descIntro": "Verwendete Tools: Veo 3 (Fast), Runway Gen-4 Turbo, Nanobanana Pro, Adobe, Capcut",
+    "descMusic1": "Musikvideo zum Song 'Saftım' des Künstlers 6UZ. Verwendete Tools: Veo 3 (Fast), Runway Gen-4 Turbo, Nanobanana Pro, Adobe, Capcut",
+    "descMusic2": "Musikvideo zum Song 'Özürler Olsun' des Künstlers 6UZ. Verwendete Tools: Veo 3.1, Runway Aleph, Runway Gen-4 Turbo, Nanobanana 2, Adobe, Capcut",
+    "descAppPromo": "Promo-Video für Realtogen AI. Verwendete Tools: Elevenlabs, Runway Gen-4 Turbo, Renderforest, Adobe, Capcut",
+    "descMain": "Schaffung digitaler Erlebnisse an der Schnittstelle von Design, KI und Wachstum."
+  },
+  "experience": {
+    "introTitle": "Einführung",
+    "introDesc": "KI-gesteuerter Kreativ- und Wachstumsspezialist mit über 6 Jahren Erfahrung im Grafikdesign und 3 Jahren in der Videobearbeitung, fokussiert auf generative KI, Performance-Marketing und skalierbare digitale Produktion.",
+    "workExperience": "BERUFSERFAHRUNG",
+    "scrollDown": "Zum Entdecken nach unten scrollen",
+    "companies": {
+        "zenoz": {
+            "role": "KI-Gestützter Marketing Lead",
+            "period": "Jun 2024 – Heute",
+            "location": "Ankara, Türkei (Hybrid)",
+            "desc": "Durchführung von Markt- und Wettbewerbsanalysen zur Identifizierung von Positionierungsmöglichkeiten und Zielgruppen mit hohem Potenzial. Entwicklung von Werbekonzepten und KI-gestützten Creatives, die auf Markenstrategie und Zielgruppenerkenntnisse abgestimmt sind.\n\nPlanung, Start und Verwaltung bezahlter Werbekampagnen auf digitalen Plattformen bei der Überwachung eines monatlichen Budgets von 8.000 bis 10.000 US-Dollar. Kontinuierliche Überwachung von Leistungskennzahlen, Anpassung von Targeting und Creatives und Optimierung der Budgetzuweisung zur Verbesserung der Konversionsraten und der Gesamtrentabilität der Kampagne."
+        },
+        "sanaldrone": {
+            "role": "Leiter KI-Kreativität & Performance",
+            "period": "Jun 2024 – Heute",
+            "location": "Online",
+            "desc": "Leitung der Entwicklung KI-gesteuerter kommerzieller Werbelösungen mit starkem Fokus auf Immobilien- und Anlageimmobilienmärkte. Erstellung hochkonvertierender, KI-generierter Video- und Bildkampagnen, die auf aufkommende Branchentrends und Anlegerverhalten abgestimmt sind.\n\nEntwicklung innovativer digitaler Werbekonzepte und skalierbarer Kreativsysteme, die auf Immobilienentwickler, Baufirmen und Investitionsprojekte zugeschnitten sind. Vorreiter bei trendgesteuerten Werbeformaten, die die Projektsichtbarkeit erhöhen, qualifizierte Leads anziehen und die Markenpositionierung auf wettbewerbsintensiven Immobilienmärkten stärken.\n\nÜberwachung der gesamten kreativen Produktionspipeline – von der Konzeptentwicklung und dem Skripting bis zum visuellen Design und der endgültigen Lieferung – bei gleichzeitiger Leitung des Kreativteams und Gewährleistung einer konsistenten Markenqualität. Optimierung budgetstarker Performance-Kampagnen und kontinuierliche Verfeinerung digitaler Produkte und Servicemodelle zur Verbesserung von Skalierbarkeit, Effizienz und Kundenergebnissen."
+        },
+        "frost": {
+            "role": "Grafikdesigner & Videoeditor",
+            "period": "Jun 2023 – Dez 2025",
+            "location": "Online",
+            "desc": "Lieferung von Grafikdesign- und Videobearbeitungsdiensten für Marken in den Bereichen Gesundheitswesen, Bauwesen und Immobilien. Gestaltung von Social-Media-Creatives, Corporate-Branding-Materialien, Werbegrafiken und Kampagnenelementen, die auf die Positionierung und Zielgruppe jeder Marke abgestimmt sind.\n\nBearbeitung von Werbevideos, Anzeigen und kurzen digitalen Inhalten, optimiert für die Performance in sozialen Medien. Zusammenarbeit mit Marketingteams zur Entwicklung visueller Konzepte, Gewährleistung der Markenkonsistenz und Produktion trendorientierter Inhalte, die digitale Kampagnenziele und das Engagement der Zielgruppe unterstützten."
+        },
+        "selected": {
+            "role": "Venture Builder & Designer",
+            "period": "2022 – Heute",
+            "location": "Online",
+            "desc": "• StudioBytes: Aufbau und Skalierung einer digitalen Community mit über 900 Mitgliedern und Entwicklung mehrerer Spielprojekte.\n• Simpl.: Konzeption und Leitung eines minimalen, auf Einfachheit ausgerichteten digitalen Produktkonzepts vom Branding bis zur Werbung.\n• Load Find App: Entwicklung und Leitung des vollständigen Designs, UI/UX, Frontends und der Werbestrategie für ein logistikorientiertes Startup.\n• TorqueParfum: Kreation und Entwicklung einer Autoduftmarke für Endverbraucher.\n• AugustWear: Entwicklung eines E-Commerce-Konzepts für Taktik- und Outdoor-Mode.\n• KI-Influencer-Projekt: Erstellung eines KI-generierten virtuellen Influencers mit über 20.000 organischen Benutzern."
+        }
+    },
+    "carouselGroups": {
+      "musicInfo": "Musikpromos",
+      "clothing": "Bekleidungsmarken",
+      "influencer": "Influencer-Kreation",
+      "advertising": "Werbeinhalte"
+    }
+  },
+  "skills": {
+    "title": "FÄHIGKEITEN",
+    "education": "AUSBILDUNG",
+    "certifications": "ZERTIFIZIERUNGEN",
+    "items": {
+      "genAI": "Generative KI",
+      "promptEng": "Prompt-Engineering",
+      "perfMarketing": "Performance-Marketing",
+      "paidMedia": "Bezahlte Medien",
+      "metaAds": "Meta Ads",
+      "creativeStrat": "Kreativstrategie",
+      "uiux": "UI/UX Design",
+      "productDev": "Produktentwicklung",
+      "creativeAuto": "Kreative Automatisierung",
+      "videoEdit": "Videobearbeitung",
+      "graphicDesign": "Grafikdesign",
+      "growthStrat": "Wachstumsstrategie"
+    },
+    "edu": {
+      "akdeniz": {
+        "school": "Akdeniz Universität",
+        "desc": "Management-Informationssysteme"
+      },
+      "anadolu": {
+        "school": "Anadolu Universität",
+        "desc": "Immobilienmanagement"
+      }
+    },
+    "certs": {
+        "python": "Python-Programmierung von Null auf Fortgeschritten",
+        "mlApps": "Anwendungen des maschinellen Lernens mit Python",
+        "ml": "Maschinelles Lernen",
+        "deepLearning": "Einführung in Deep Learning",
+        "aiIntro": "Einführung in die Künstliche Intelligenz",
+        "teamBuilding": "Teambuilding und Management",
+        "itLaw": "IT-Recht",
+        "googleCloud": "Google Cloud Seminar",
+        "gameMarketing": "Grundlagen des Spiele-Marketings",
+        "socialMedia": "Einführung in Social-Media-Expertise",
+        "english": "Englisch (B1)",
+        "communication": "Effektive Kommunikationsstrategien"
+    }
+  },
+  "contact": {
+    "whatsNext": "Was kommt als Nächstes?",
+    "letsWork": "LASS UNS ZUSAMMENARBEITEN",
+    "gdPortfolioPrompt": "Möchten Sie mein Grafikdesign-Portfolio sehen?",
+    "gdPortfolioBtn": "Grafikdesign-Portfolio",
+    "allRights": "Alle Rechte vorbehalten.",
+    "designedWith": "Entworfen und gebaut mit KI & Leidenschaft."
+  }
+}

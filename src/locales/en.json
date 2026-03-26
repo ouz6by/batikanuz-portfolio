@@ -1,0 +1,115 @@
+{
+  "nav": {
+    "tr": "TÜRKÇE",
+    "en": "İNGİLİZCE",
+    "de": "ALMANCA",
+    "ru": "RUSÇA"
+  },
+  "hero": {
+    "introLabel": "Intro",
+    "musicClip1Label": "AI Music Clip 1",
+    "musicClip2Label": "AI Music Clip 2",
+    "appPromoLabel": "App Promo",
+    "title": "BATIKAN UZ",
+    "intro": "INTRO",
+    "music": "MUSIC",
+    "subtitle": "AI-Driven Creative & Growth Specialist",
+    "date1": "SEPTEMBER 15, 2025",
+    "date2": "DECEMBER 27, 2025",
+    "date3": "DECEMBER 21, 2025",
+    "descIntro": "Tools used: Veo 3 (Fast), Runway Gen-4 Turbo, Nanobanana Pro, Adobe, Capcut",
+    "descMusic1": "Music clip video produced for the song 'Saftım' by the artist 6UZ. Tools used: Veo 3 (Fast), Runway Gen-4 Turbo, Nanobanana Pro, Adobe, Capcut",
+    "descMusic2": "Music clip video produced for the song 'Özürler Olsun' by the artist 6UZ. Tools used: Veo 3.1, Runway Aleph, Runway Gen-4 Turbo, Nanobanana 2, Adobe, Capcut",
+    "descAppPromo": "Promotional video prepared for Realtogen AI. Tools used: Elevenlabs, Runway Gen-4 Turbo, Renderforest, Adobe, Capcut",
+    "descMain": "Crafting digital experiences at the intersection of Design, AI, and Growth."
+  },
+  "experience": {
+    "introTitle": "Introduction",
+    "introDesc": "AI-driven creative and growth specialist with 6+ years in graphic design and 3 years in video editing, focused on generative AI, performance marketing, and scalable digital production.",
+    "workExperience": "WORK EXPERIENCE",
+    "scrollDown": "Scroll down to explore",
+    "companies": {
+        "zenoz": {
+            "role": "AI-Driven Marketing Lead",
+            "period": "Jun 2024 – Present",
+            "location": "Ankara, Türkiye (Hybrid)",
+            "desc": "Conduct market and competitor analysis to identify positioning opportunities and high-potential target segments. Develop advertising concepts and AI-assisted creative assets aligned with brand strategy and audience insights.\n\nPlan, launch, and manage paid advertising campaigns across digital platforms, overseeing a $8K–$10K monthly budget. Continuously monitor performance metrics, adjust targeting and creatives, and optimize budget allocation to improve conversion rates and overall campaign profitability."
+        },
+        "sanaldrone": {
+            "role": "Head of AI Creative & Performance",
+            "period": "Jun 2024 – Present",
+            "location": "Online",
+            "desc": "Lead the development of AI-powered commercial advertising solutions, with a strong focus on real estate and property investment markets. Create high-converting, AI-generated video and visual campaigns aligned with emerging industry trends and investor behavior.\n\nDevelop innovative digital advertising concepts and scalable creative systems tailored to real estate developers, construction firms, and investment projects. Pioneer trend-driven promotional formats that increase project visibility, attract qualified leads, and strengthen brand positioning in competitive property markets.\n\nOversee the full creative production pipeline — from concept development and scripting to visual design and final delivery — while managing the creative team and ensuring consistent brand quality. Optimize high-budget performance campaigns and continuously refine digital products and service models to improve scalability, efficiency, and client results."
+        },
+        "frost": {
+            "role": "Graphic Designer & Video Editor",
+            "period": "Jun 2023 – Dec 2025",
+            "location": "Online",
+            "desc": "Delivered graphic design and video editing services for brands operating in healthcare, construction, and real estate sectors. Designed social media creatives, corporate branding materials, promotional visuals, and campaign assets aligned with each brand’s positioning and target audience.\n\nEdited promotional videos, advertisements, and short-form digital content optimized for social media performance. Collaborated with marketing teams to develop visual concepts, ensure brand consistency, and produce trend-aligned content that supported digital campaign objectives and audience engagement."
+        },
+        "selected": {
+            "role": "Venture Builder & Designer",
+            "period": "2022 – Present",
+            "location": "Online",
+            "desc": "• StudioBytes: Built and scaled a 900+ member digital community and developed multiple game projects.\n• Simpl.: Designed and directed a minimal, simplicity-focused digital product concept from branding to advertising.\n• Load Find App: Developed and led the full design, UI/UX, frontend, and advertising strategy for a logistics-focused startup.\n• TorqueParfum: Created and developed a consumer car fragrance brand.\n• AugustWear: Developed a tactical and outdoor fashion e-commerce concept.\n• AI Influencer Project: Created an AI-generated virtual influencer, reaching 20,000+ organic users."
+        }
+    },
+    "carouselGroups": {
+      "musicInfo": "Music Promos",
+      "clothing": "Clothing Brands",
+      "influencer": "Influencer Creation",
+      "advertising": "Advertising Content"
+    }
+  },
+  "skills": {
+    "title": "SKILLS",
+    "education": "EDUCATION",
+    "certifications": "CERTIFICATIONS",
+    "items": {
+      "genAI": "Generative AI",
+      "promptEng": "Prompt Engineering",
+      "perfMarketing": "Performance Marketing",
+      "paidMedia": "Paid Media",
+      "metaAds": "Meta Ads",
+      "creativeStrat": "Creative Strategy",
+      "uiux": "UI/UX Design",
+      "productDev": "Product Development",
+      "creativeAuto": "Creative Automation",
+      "videoEdit": "Video Editing",
+      "graphicDesign": "Graphic Design",
+      "growthStrat": "Growth Strategy"
+    },
+    "edu": {
+      "akdeniz": {
+        "school": "Akdeniz University",
+        "desc": "Management Information Systems"
+      },
+      "anadolu": {
+        "school": "Anadolu University",
+        "desc": "Property Management"
+      }
+    },
+    "certs": {
+        "python": "Python Programming from Zero to Advanced",
+        "mlApps": "Machine Learning Applications with Python",
+        "ml": "Machine Learning",
+        "deepLearning": "Introduction to Deep Learning",
+        "aiIntro": "Introduction to Artificial Intelligence",
+        "teamBuilding": "Team Building and Management",
+        "itLaw": "IT Law",
+        "googleCloud": "Google Cloud Seminar",
+        "gameMarketing": "Game Marketing Fundamentals",
+        "socialMedia": "Introduction to Social Media Expertise",
+        "english": "English (B1)",
+        "communication": "Effective Communication Strategies"
+    }
+  },
+  "contact": {
+    "whatsNext": "What's Next?",
+    "letsWork": "LET'S WORK TOGETHER",
+    "gdPortfolioPrompt": "Would you like to see my Graphic Design portfolio?",
+    "gdPortfolioBtn": "Graphic Design Portfolio",
+    "allRights": "All rights reserved.",
+    "designedWith": "Designed & Built with AI & Passion."
+  }
+}
