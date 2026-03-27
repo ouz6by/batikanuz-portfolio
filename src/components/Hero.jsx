@@ -4,11 +4,11 @@ import { VolumeX, Volume2, Play, Pause } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const heroVideos = [
-    { id: 1, src: "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/videos/batikanportfolio.mp4", label: "Intro" },
-    { id: 2, src: "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/videos/3-M%C3%BCzik%20Klibi.mp4", label: "AI Music Clip 1" },
-    { id: 3, src: "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/videos/4-M%C3%BCzik%20Klibi.mp4", label: "AI Music Clip 2" },
-    { id: 4, src: "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/videos/realto%20genel.mp4", label: "App Promo" },
-    { id: 5, src: "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/videos/batikanportfolio.mp4", label: "Intro" }
+    { id: 1, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4", label: "Intro" },
+    { id: 2, src: "https://cdn.batikanuz.com.tr/videos/3-M%C3%BCzik%20Klibi.mp4", label: "AI Music Clip 1" },
+    { id: 3, src: "https://cdn.batikanuz.com.tr/videos/4-M%C3%BCzik%20Klibi.mp4", label: "AI Music Clip 2" },
+    { id: 4, src: "https://cdn.batikanuz.com.tr/videos/realto%20genel.mp4", label: "App Promo" },
+    { id: 5, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4", label: "Intro" }
 ];
 
 const Hero = () => {

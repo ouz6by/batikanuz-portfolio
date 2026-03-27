@@ -118,52 +118,52 @@ const carouselGroups = [
         title: "Music Promos",
         year: "2026",
         videos: [
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Muzik%20Tanitimi/1.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Muzik%20Tanitimi/5.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Muzik%20Tanitimi/6.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Muzik%20Tanitimi/7.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Muzik%20Tanitimi/12.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Muzik%20Tanitimi/16.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Muzik%20Tanitimi/17.mp4"
+            "https://cdn.batikanuz.com.tr/Muzik%20Tanitimi/1.mp4",
+            "https://cdn.batikanuz.com.tr/Muzik%20Tanitimi/5.mp4",
+            "https://cdn.batikanuz.com.tr/Muzik%20Tanitimi/6.mp4",
+            "https://cdn.batikanuz.com.tr/Muzik%20Tanitimi/7.mp4",
+            "https://cdn.batikanuz.com.tr/Muzik%20Tanitimi/12.mp4",
+            "https://cdn.batikanuz.com.tr/Muzik%20Tanitimi/16.mp4",
+            "https://cdn.batikanuz.com.tr/Muzik%20Tanitimi/17.mp4"
         ]
     },
     {
         title: "Clothing Brands",
         year: "2025",
         videos: [
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Giyim%20Markalar%C4%B1/augustwear_reels_1_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Giyim%20Markalar%C4%B1/augustwear_reels_3_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Giyim%20Markalar%C4%B1/yama_reels_1_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Giyim%20Markalar%C4%B1/yama_reels_2_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Giyim%20Markalar%C4%B1/yama_reels_3_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Giyim%20Markalar%C4%B1/yama_reels_4_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Giyim%20Markalar%C4%B1/yama_reels_5_2025.mp4"
+            "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/augustwear_reels_1_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/augustwear_reels_3_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/yama_reels_1_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/yama_reels_2_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/yama_reels_3_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/yama_reels_4_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/yama_reels_5_2025.mp4"
         ]
     },
     {
         title: "Influencer Creation",
         year: "2024",
         videos: [
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Inf/Lesley_reels_1_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Inf/Lesley_reels_2_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Inf/Lesley_reels_4_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Inf/Lesley_reels_5_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Inf/Lesley_reels_6_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Inf/Lesley_reels_7_2025.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Inf/Lesley_reels_8_2025.mp4"
+            "https://cdn.batikanuz.com.tr/Inf/Lesley_reels_1_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Inf/Lesley_reels_2_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Inf/Lesley_reels_4_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Inf/Lesley_reels_5_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Inf/Lesley_reels_6_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Inf/Lesley_reels_7_2025.mp4",
+            "https://cdn.batikanuz.com.tr/Inf/Lesley_reels_8_2025.mp4"
         ]
     },
     {
         title: "Advertising Content",
         year: "2025",
         videos: [
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Reklams/1a.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Reklams/4.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Reklams/11.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Reklams/15.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Reklams/16a.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Reklams/19.mp4",
-            "https://pub-583e439782cc445aae8a1bb842e4fa97.r2.dev/Reklams/21.mp4"
+            "https://cdn.batikanuz.com.tr/Reklams/1a.mp4",
+            "https://cdn.batikanuz.com.tr/Reklams/4.mp4",
+            "https://cdn.batikanuz.com.tr/Reklams/11.mp4",
+            "https://cdn.batikanuz.com.tr/Reklams/15.mp4",
+            "https://cdn.batikanuz.com.tr/Reklams/16a.mp4",
+            "https://cdn.batikanuz.com.tr/Reklams/19.mp4",
+            "https://cdn.batikanuz.com.tr/Reklams/21.mp4"
         ]
     }
 ];
