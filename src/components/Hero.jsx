@@ -1,6 +1,6 @@
 import React, { useRef, useState, useEffect } from 'react';
 import { motion, useScroll, useMotionValueEvent, AnimatePresence } from 'framer-motion';
-import { VolumeX, Volume2, Play, Pause } from 'lucide-react';
+import { VolumeX, Volume2, Play, Pause, Maximize2, X, ChevronLeft, ChevronRight } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const heroVideos = [
@@ -23,6 +23,8 @@ const Hero = () => {
     const [progress, setProgress] = useState(0);
     const [duration, setDuration] = useState(0);
     const [isPlaying, setIsPlaying] = useState(true);
+    const [expandedVideo, setExpandedVideo] = useState(null); // mobile expand modal
+    const expandVideoRef = useRef(null);
 
     // When activeIndex changes: swap src without remounting, and preload next
     useEffect(() => {
@@ -131,6 +133,20 @@ const Hero = () => {
         setActiveIndex((prev) => (prev + 1) % heroVideos.length);
     };
 
+    const handlePrev = () => setActiveIndex((prev) => (prev - 1 + heroVideos.length) % heroVideos.length);
+    const handleNext = () => setActiveIndex((prev) => (prev + 1) % heroVideos.length);
+
+    const handleExpand = () => {
+        setExpandedVideo(heroVideos[activeIndex].src);
+    };
+
+    const handleCloseExpand = () => {
+        if (expandVideoRef.current) {
+            expandVideoRef.current.pause();
+        }
+        setExpandedVideo(null);
+    };
+
     return (
         <section ref={ref} className="h-screen w-full relative overflow-hidden bg-background snap-start snap-always shrink-0">
             {/* Video Background */}
@@ -200,14 +216,13 @@ const Hero = () => {
                 </div>
             </div>
 
-            {/* Sound Toggle Button - Left Aligned */}
-            <div className="absolute top-1/2 left-6 md:left-20 -translate-y-1/2 z-20">
+            {/* Sound Toggle Button - Desktop only */}
+            <div className="hidden md:flex absolute top-1/2 left-20 -translate-y-1/2 z-20">
                 <button
                     onClick={handleToggle}
                     disabled={isInteracting}
                     className={`group relative flex items-center justify-center w-20 h-20 rounded-full backdrop-blur-md transition-all duration-300 hover:scale-105 border border-white/10 hover:border-white/40 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] ${isInteracting ? 'bg-white/20' : 'bg-black/40 hover:bg-black/60'}`}
                 >
-                    {/* Icon / Counter Content */}
                     <div className="flex items-center justify-center z-10 transition-colors duration-300">
                         {isInteracting ? (
                             <span className="text-2xl font-bold text-white font-mono">{counter}</span>
@@ -252,6 +267,71 @@ const Hero = () => {
                     </div>
                 </button>
             </div>
+
+            {/* Mobile: Expand Button (replaces mute) */}
+            <div className="md:hidden absolute top-1/2 left-5 -translate-y-1/2 z-20">
+                <button
+                    onClick={handleExpand}
+                    className="flex items-center justify-center w-14 h-14 rounded-full bg-black/50 backdrop-blur-md border border-white/20 hover:border-white/50 transition-all duration-300 active:scale-95"
+                >
+                    <Maximize2 className="w-6 h-6 text-white" />
+                </button>
+            </div>
+
+            {/* Mobile: Prev / Next Arrows */}
+            <div className="md:hidden absolute bottom-8 left-1/2 -translate-x-1/2 z-20 flex items-center gap-6">
+                <button
+                    onClick={handlePrev}
+                    className="flex items-center justify-center w-12 h-12 rounded-full bg-black/50 backdrop-blur-md border border-white/20 active:scale-95 transition-all"
+                >
+                    <ChevronLeft className="w-6 h-6 text-white" />
+                </button>
+                {/* Dot indicators */}
+                <div className="flex items-center gap-1.5">
+                    {heroVideos.map((_, i) => (
+                        <button
+                            key={i}
+                            onClick={() => setActiveIndex(i)}
+                            className={`rounded-full transition-all duration-300 ${
+                                i === activeIndex ? 'w-4 h-2 bg-white' : 'w-2 h-2 bg-white/40'
+                            }`}
+                        />
+                    ))}
+                </div>
+                <button
+                    onClick={handleNext}
+                    className="flex items-center justify-center w-12 h-12 rounded-full bg-black/50 backdrop-blur-md border border-white/20 active:scale-95 transition-all"
+                >
+                    <ChevronRight className="w-6 h-6 text-white" />
+                </button>
+            </div>
+
+            {/* Mobile: Fullscreen Expand Modal */}
+            <AnimatePresence>
+                {expandedVideo && (
+                    <motion.div
+                        initial={{ opacity: 0 }}
+                        animate={{ opacity: 1 }}
+                        exit={{ opacity: 0 }}
+                        className="md:hidden fixed inset-0 z-[200] bg-black flex items-center justify-center"
+                    >
+                        <video
+                            ref={expandVideoRef}
+                            src={expandedVideo}
+                            autoPlay
+                            controls
+                            playsInline
+                            className="w-full h-full object-contain"
+                        />
+                        <button
+                            onClick={handleCloseExpand}
+                            className="absolute top-5 right-5 flex items-center justify-center w-10 h-10 rounded-full bg-black/60 backdrop-blur-md border border-white/20 z-10"
+                        >
+                            <X className="w-5 h-5 text-white" />
+                        </button>
+                    </motion.div>
+                )}
+            </AnimatePresence>
 
             {/* Video Selection Carousel Container - Right Edge */}
             <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[120px] h-[500px] z-20 pointer-events-none hidden md:block">
