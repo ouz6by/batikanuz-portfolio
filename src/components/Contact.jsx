@@ -31,13 +31,11 @@ const Contact = () => {
                 transition={{ delay: 0.4 }}
                 className="flex flex-col md:flex-row gap-8 md:gap-16 items-center justify-center mb-20"
             >
-                <a href="mailto:batikan.o.uz@gmail.com" className="group flex items-center gap-3 text-xl hover:text-blue-400 transition-colors">
-                    <Mail className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                    <span>batikan.o.uz@gmail.com</span>
+                <a href="mailto:batikan.o.uz@gmail.com" className="group flex items-center text-xl hover:text-blue-400 transition-colors">
+                    <Mail className="w-7 h-7 group-hover:scale-110 transition-transform" />
                 </a>
-                <a href="https://www.linkedin.com/in/batıkan-uz/" target="_blank" rel="noopener noreferrer" className="group flex items-center gap-3 text-xl hover:text-blue-400 transition-colors">
-                    <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                    <span>/in/batıkan-uz</span>
+                <a href="https://www.linkedin.com/in/batıkan-uz/" target="_blank" rel="noopener noreferrer" className="group flex items-center text-xl hover:text-blue-400 transition-colors">
+                    <Linkedin className="w-7 h-7 group-hover:scale-110 transition-transform" />
                 </a>
 
             </motion.div>

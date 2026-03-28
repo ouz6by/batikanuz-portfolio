@@ -436,11 +436,9 @@ const Experience = () => {
                                             viewport={{ once: true, margin: "-50% 0px -50% 0px" }}
                                             transition={{ duration: 0.5 }}
                                         />
-                                        <motion.div
-                                            className="md:hidden w-4 h-4 rounded-full bg-black border-4 border-white/40 z-30"
-                                            initial={{ backgroundColor: "rgba(0,0,0,1)", borderColor: "rgba(255,255,255,0.4)" }}
-                                            whileInView={{ backgroundColor: "#3b82f6", borderColor: "#ffffff" }}
-                                            viewport={{ once: true, margin: "-100px 0px" }}
+                                        <div
+                                            className="md:hidden w-4 h-4 rounded-full border-4 z-30"
+                                            style={{ backgroundColor: "#3b82f6", borderColor: "#ffffff" }}
                                         />
                                     </div>
 
