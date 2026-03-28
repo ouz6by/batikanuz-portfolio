@@ -23,18 +23,17 @@ const scheduleWinner = (() => {
         if (rafId) return;
         rafId = requestAnimationFrame(() => {
             rafId = null;
-            // Find the element with the highest intersection ratio
-            let bestEl = null;
-            let bestRatio = 0;
-            videoRatioMap.forEach((ratio, el) => {
-                if (ratio > bestRatio) {
-                    bestRatio = ratio;
-                    bestEl = el;
-                }
-            });
-            // Play winner, pause everyone else
-            videoRatioMap.forEach((_, el) => {
-                if (el === bestEl && bestRatio > 0) {
+            // Mobile: max 1 concurrent video. Desktop: up to 5 (all visible).
+            const isMobile = window.innerWidth < 768;
+            const maxPlaying = isMobile ? 1 : 5;
+
+            // Sort all videos by ratio descending, pick top N as winners
+            const sorted = [...videoRatioMap.entries()]
+                .sort((a, b) => b[1] - a[1]);
+
+            sorted.forEach(([el, ratio], idx) => {
+                const shouldPlay = idx < maxPlaying && ratio > 0;
+                if (shouldPlay) {
                     if (el.paused) el.play().catch(() => {});
                 } else {
                     if (!el.paused) el.pause();
