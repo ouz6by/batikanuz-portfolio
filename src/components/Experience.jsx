@@ -4,42 +4,81 @@ import { motion, useScroll } from 'framer-motion';
 import { ArrowUpRight, Instagram, Globe } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-// ─── Shared IntersectionObserver pool ────────────────────────────────────────
-// Instead of each LazyVideo creating 2 observers, we use one shared observer
-// for ALL videos. Much lighter on the browser, especially mobile.
-const videoObserverCallbacks = new Map();
+// ─── Competitive Single-Winner Video Playback ─────────────────────────────────
+// Only the ONE most visible video plays at any time.
+// All others are paused, even if they are in the viewport.
+// This dramatically reduces concurrent video decodes (28 → 1) on mobile.
 
-let sharedPreloadObserver = null;
-let sharedPlayObserver = null;
+// Map<videoElement, intersectionRatio>
+const videoRatioMap = new Map();
+// Map<videoElement, src>
+const videoSrcMap = new Map();
 
-const getSharedPreloadObserver = () => {
-    if (!sharedPreloadObserver) {
-        sharedPreloadObserver = new IntersectionObserver(
+let competitiveObserver = null;
+let preloadObserver = null;
+
+const scheduleWinner = (() => {
+    let rafId = null;
+    return () => {
+        if (rafId) return;
+        rafId = requestAnimationFrame(() => {
+            rafId = null;
+            // Find the element with the highest intersection ratio
+            let bestEl = null;
+            let bestRatio = 0;
+            videoRatioMap.forEach((ratio, el) => {
+                if (ratio > bestRatio) {
+                    bestRatio = ratio;
+                    bestEl = el;
+                }
+            });
+            // Play winner, pause everyone else
+            videoRatioMap.forEach((_, el) => {
+                if (el === bestEl && bestRatio > 0) {
+                    if (el.paused) el.play().catch(() => {});
+                } else {
+                    if (!el.paused) el.pause();
+                }
+            });
+        });
+    };
+})();
+
+const getCompetitiveObserver = () => {
+    if (!competitiveObserver) {
+        competitiveObserver = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
-                    const cb = videoObserverCallbacks.get(entry.target);
-                    if (cb) cb.onPreload(entry.isIntersecting);
+                    videoRatioMap.set(entry.target, entry.intersectionRatio);
                 });
+                scheduleWinner();
             },
-            { rootMargin: '400px 200px' }
+            // Multiple thresholds give us smooth ratio updates
+            { threshold: [0, 0.1, 0.25, 0.5, 0.75, 1.0], rootMargin: '0px' }
         );
     }
-    return sharedPreloadObserver;
+    return competitiveObserver;
 };
 
-const getSharedPlayObserver = () => {
-    if (!sharedPlayObserver) {
-        sharedPlayObserver = new IntersectionObserver(
+const getPreloadObserver = () => {
+    if (!preloadObserver) {
+        preloadObserver = new IntersectionObserver(
             (entries) => {
                 entries.forEach((entry) => {
-                    const cb = videoObserverCallbacks.get(entry.target);
-                    if (cb) cb.onPlay(entry.isIntersecting);
+                    if (entry.isIntersecting) {
+                        const el = entry.target;
+                        const src = videoSrcMap.get(el);
+                        if (src && el.src !== src) {
+                            el.src = src;
+                            el.load();
+                        }
+                    }
                 });
             },
-            { threshold: 0.1, rootMargin: '0px' }
+            { rootMargin: '300px 200px' }
         );
     }
-    return sharedPlayObserver;
+    return preloadObserver;
 };
 
 // ─── LazyVideo ────────────────────────────────────────────────────────────────
@@ -50,29 +89,18 @@ const LazyVideo = ({ src, className }) => {
         const el = videoRef.current;
         if (!el) return;
 
-        videoObserverCallbacks.set(el, {
-            onPreload: (visible) => {
-                if (visible && el.src !== src) {
-                    el.src = src;
-                    el.load();
-                }
-            },
-            onPlay: (visible) => {
-                if (visible) {
-                    el.play().catch(() => {});
-                } else {
-                    el.pause();
-                }
-            },
-        });
+        videoSrcMap.set(el, src);
+        videoRatioMap.set(el, 0);
 
-        getSharedPreloadObserver().observe(el);
-        getSharedPlayObserver().observe(el);
+        getPreloadObserver().observe(el);
+        getCompetitiveObserver().observe(el);
 
         return () => {
-            getSharedPreloadObserver().unobserve(el);
-            getSharedPlayObserver().unobserve(el);
-            videoObserverCallbacks.delete(el);
+            getPreloadObserver().unobserve(el);
+            getCompetitiveObserver().unobserve(el);
+            videoSrcMap.delete(el);
+            videoRatioMap.delete(el);
+            scheduleWinner(); // re-elect winner after unmount
         };
     }, [src]);
 
@@ -84,7 +112,6 @@ const LazyVideo = ({ src, className }) => {
             playsInline
             preload="none"
             className={className}
-            style={{ willChange: 'auto' }}
         />
     );
 };
