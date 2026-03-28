@@ -1,7 +1,7 @@
 import React from 'react';
 import Section from './Section';
 import { motion } from 'framer-motion';
-import { Mail, Linkedin, Phone } from 'lucide-react';
+import { Mail, Linkedin } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {
@@ -39,10 +39,7 @@ const Contact = () => {
                     <Linkedin className="w-6 h-6 group-hover:scale-110 transition-transform" />
                     <span>/in/batıkan-uz</span>
                 </a>
-                <a href="tel:+905431484835" className="group flex items-center gap-3 text-xl hover:text-blue-400 transition-colors">
-                    <Phone className="w-6 h-6 group-hover:scale-110 transition-transform" />
-                    <span>+90 543 148 4835</span>
-                </a>
+
             </motion.div>
 
             <motion.div
