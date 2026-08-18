@@ -5,7 +5,7 @@ import { useTranslation } from 'react-i18next';
 
 const heroVideos = [
     { id: 1, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4?v=2", label: "Intro" },
-    { id: 2, src: "https://cdn.batikanuz.com.tr/videos/3-M%C3%BCzik%20Klibi.mp4?v=2", label: "AI Music Clip 1" },
+    { id: 2, src: "https://cdn.batikanuz.com.tr/videos/3-M%C3%BCzik%20Klibi.mp4?v=2", label: "AI Short Film" },
     { id: 3, src: "https://cdn.batikanuz.com.tr/videos/4-M%C3%BCzik%20Klibi.mp4?v=2", label: "AI Music Clip 2" },
     { id: 4, src: "https://cdn.batikanuz.com.tr/videos/realto%20genel.mp4?v=2", label: "App Promo" },
     { id: 5, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4?v=2", label: "Intro" }
@@ -51,7 +51,7 @@ const Hero = () => {
 
     const getLabel = (label) => {
         if (label === "Intro") return t("hero.introLabel");
-        if (label === "AI Music Clip 1") return t("hero.musicClip1Label");
+        if (label === "AI Short Film" || label === "AI Music Clip 1") return t("hero.musicClip1Label");
         if (label === "AI Music Clip 2") return t("hero.musicClip2Label");
         if (label === "App Promo") return t("hero.appPromoLabel");
         return label;
@@ -442,7 +442,7 @@ const Hero = () => {
             >
                 <h2 className="text-sm md:text-lg font-medium text-gray-300 mb-2 tracking-widest uppercase">
                     {activeIndex === 4 ? "" :
-                     heroVideos[activeIndex]?.label === "AI Music Clip 1" ? 
+                     heroVideos[activeIndex]?.label === "AI Short Film" || heroVideos[activeIndex]?.label === "AI Music Clip 1" ? 
                         t('hero.date1') : 
                      heroVideos[activeIndex]?.label === "AI Music Clip 2" ?
                         t('hero.date2') :
@@ -454,7 +454,8 @@ const Hero = () => {
 
                 <h1 className="text-5xl md:text-8xl font-bold text-white mb-6 leading-tight uppercase">
                     {activeIndex === 4 ? t('hero.intro') :
-                     heroVideos[activeIndex]?.label === "AI Music Clip 1" || heroVideos[activeIndex]?.label === "AI Music Clip 2" ? t('hero.music') :
+                     heroVideos[activeIndex]?.label === "AI Short Film" || heroVideos[activeIndex]?.label === "AI Music Clip 1" ? t('hero.shortFilm') :
+                     heroVideos[activeIndex]?.label === "AI Music Clip 2" ? t('hero.music') :
                      heroVideos[activeIndex]?.label === "App Promo" ? t('hero.appPromoLabel') :
                      t('hero.title')}
                 </h1>
@@ -462,7 +463,7 @@ const Hero = () => {
                 <p className="text-gray-300 text-lg md:text-xl font-light max-w-xl">
                     {activeIndex === 4 ?
                         t('hero.descIntro') :
-                     heroVideos[activeIndex]?.label === "AI Music Clip 1" ? 
+                     heroVideos[activeIndex]?.label === "AI Short Film" || heroVideos[activeIndex]?.label === "AI Music Clip 1" ? 
                         t('hero.descMusic1') : 
                      heroVideos[activeIndex]?.label === "AI Music Clip 2" ?
                         t('hero.descMusic2') :
