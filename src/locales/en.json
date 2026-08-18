@@ -30,33 +30,39 @@
     "scrollDown": "Scroll down to explore",
     "companies": {
         "zenoz": {
-            "role": "AI-Driven Marketing Lead",
-            "period": "Jun 2024 – Present",
+            "role": "GROWTH SPECIALIST",
+            "period": "Jun 2024 – Present (Consultant)",
             "location": "Ankara, Türkiye (Hybrid)",
-            "desc": "Conduct market and competitor analysis to identify positioning opportunities and high-potential target segments. Develop advertising concepts and AI-assisted creative assets aligned with brand strategy and audience insights.\n\nPlan, launch, and manage paid advertising campaigns across digital platforms, overseeing a $8K–$10K monthly budget. Continuously monitor performance metrics, adjust targeting and creatives, and optimize budget allocation to improve conversion rates and overall campaign profitability."
+            "desc": "• Provide strategic consultancy on campaign efficiency through AI-driven creative testing and data-backed optimization strategies.\n• Remotely oversee and optimize an $8K–$10K monthly advertising budget across digital platforms."
         },
         "sanaldrone": {
-            "role": "Head of AI Creative & Performance",
-            "period": "Jun 2024 – Present",
+            "role": "GROWTH SPECIALIST",
+            "period": "Jun 2024 – Present (Consultant)",
             "location": "Online",
-            "desc": "Lead the development of AI-powered commercial advertising solutions, with a strong focus on real estate and property investment markets. Create high-converting, AI-generated video and visual campaigns aligned with emerging industry trends and investor behavior.\n\nDevelop innovative digital advertising concepts and scalable creative systems tailored to real estate developers, construction firms, and investment projects. Pioneer trend-driven promotional formats that increase project visibility, attract qualified leads, and strengthen brand positioning in competitive property markets.\n\nOversee the full creative production pipeline — from concept development and scripting to visual design and final delivery — while managing the creative team and ensuring consistent brand quality. Optimize high-budget performance campaigns and continuously refine digital products and service models to improve scalability, efficiency, and client results."
+            "desc": "• Serve as an external consultant producing high-quality AI-generated commercial advertisements and developing creative automation systems.\n• Guide the creative team and advise on full graphic design processes and high-budget performance campaigns to improve scalability."
+        },
+        "fasya": {
+            "role": "CREATIVE DESIGNER",
+            "period": "May 2026 – Present (Online)",
+            "location": "Online",
+            "desc": "• Design high-converting advertising creatives and visual assets for digital marketing campaigns to drive user acquisition.\n• Produce graphics, social media content, and promotional materials aligned with brand guidelines.\n• Collaborate closely with the marketing team to boost overall campaign performance and accelerate brand growth."
         },
         "frost": {
-            "role": "Graphic Designer & Video Editor",
+            "role": "CREATIVE DESIGNER",
             "period": "Jun 2023 – Dec 2025",
             "location": "Online",
-            "desc": "Delivered graphic design and video editing services for brands operating in healthcare, construction, and real estate sectors. Designed social media creatives, corporate branding materials, promotional visuals, and campaign assets aligned with each brand’s positioning and target audience.\n\nEdited promotional videos, advertisements, and short-form digital content optimized for social media performance. Collaborated with marketing teams to develop visual concepts, ensure brand consistency, and produce trend-aligned content that supported digital campaign objectives and audience engagement."
+            "desc": "• Provided end-to-end graphic design and video editing services for brands across healthcare, construction, and real estate sectors.\n• Created high-impact social media visuals, corporate branding materials, and trend-driven promotional content for digital marketing campaigns."
         },
         "selected": {
-            "role": "Venture Builder & Designer",
-            "period": "2022 – Present",
+            "role": "Selected Ventures",
+            "period": "2022 – Present | (Online)",
             "location": "Online",
-            "desc": "• StudioBytes: Built and scaled a 900+ member digital community and developed multiple game projects.\n• Simpl.: Designed and directed a minimal, simplicity-focused digital product concept from branding to advertising.\n• Load Find App: Developed and led the full design, UI/UX, frontend, and advertising strategy for a logistics-focused startup.\n• TorqueParfum: Created and developed a consumer car fragrance brand.\n• AugustWear: Developed a tactical and outdoor fashion e-commerce concept.\n• AI Influencer Project: Created an AI-generated virtual influencer, reaching 20,000+ organic users."
+            "desc": "• StudioBytes – Built and scaled a 900+ member digital community and developed multiple game projects.\n• Yüküm App – Developed and led the full design, UI/UX, frontend, and advertising strategy for a logistics-focused startup.\n• TorqueParfum – Created and developed a consumer car fragrance brand.\n• AugustWear – Developed a tactical and outdoor fashion e-commerce concept.\n• AI Influencer Project – Created an AI-generated virtual influencer, reaching 20,000+ organic users."
         }
     },
     "carouselGroups": {
       "musicInfo": "Music Promos",
-      "clothing": "Clothing Brands",
+      "clothing": "Video Edit",
       "influencer": "Influencer Creation",
       "advertising": "Advertising Content"
     }

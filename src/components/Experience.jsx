@@ -120,10 +120,10 @@ const experiences = [
     {
         id: 1,
         company: "Zenoz Yazılım",
-        role: "AI-Driven Marketing Lead",
-        period: "Jun 2024 – Present",
+        role: "Growth Specialist",
+        period: "Jun 2024 – Present (Consultant)",
         location: "Ankara, Türkiye (Hybrid)",
-        description: "Conduct market and competitor analysis to identify positioning opportunities and high-potential target segments. Develop advertising concepts and AI-assisted creative assets aligned with brand strategy and audience insights.\n\nPlan, launch, and manage paid advertising campaigns across digital platforms, overseeing a $8K–$10K monthly budget. Continuously monitor performance metrics, adjust targeting and creatives, and optimize budget allocation to improve conversion rates and overall campaign profitability.",
+        description: "• Provide strategic consultancy on campaign efficiency through AI-driven creative testing and data-backed optimization strategies.\n• Remotely oversee and optimize an $8K–$10K monthly advertising budget across digital platforms.",
         color: "from-blue-600 to-indigo-900",
         image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
         projectTitle: "AI Marketing Suite",
@@ -132,10 +132,10 @@ const experiences = [
     {
         id: 2,
         company: "sanaldrone.com",
-        role: "Head of AI Creative & Performance",
-        period: "Jun 2024 – Present",
+        role: "Growth Specialist",
+        period: "Jun 2024 – Present (Consultant)",
         location: "Online",
-        description: "Lead the development of AI-powered commercial advertising solutions, with a strong focus on real estate and property investment markets. Create high-converting, AI-generated video and visual campaigns aligned with emerging industry trends and investor behavior.\n\nDevelop innovative digital advertising concepts and scalable creative systems tailored to real estate developers, construction firms, and investment projects. Pioneer trend-driven promotional formats that increase project visibility, attract qualified leads, and strengthen brand positioning in competitive property markets.\n\nOversee the full creative production pipeline — from concept development and scripting to visual design and final delivery — while managing the creative team and ensuring consistent brand quality. Optimize high-budget performance campaigns and continuously refine digital products and service models to improve scalability, efficiency, and client results.",
+        description: "• Serve as an external consultant producing high-quality AI-generated commercial advertisements and developing creative automation systems.\n• Guide the creative team and advise on full graphic design processes and high-budget performance campaigns to improve scalability.",
         color: "from-purple-600 to-fuchsia-900",
         image: "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?q=80&w=2065&auto=format&fit=crop",
         projectTitle: "Creative Automation",
@@ -147,11 +147,23 @@ const experiences = [
     },
     {
         id: 3,
+        company: "Fasya App",
+        role: "Creative Designer",
+        period: "May 2026 – Present (Online)",
+        location: "Online",
+        description: "• Design high-converting advertising creatives and visual assets for digital marketing campaigns to drive user acquisition.\n• Produce graphics, social media content, and promotional materials aligned with brand guidelines.\n• Collaborate closely with the marketing team to boost overall campaign performance and accelerate brand growth.",
+        color: "from-cyan-600 to-blue-900",
+        image: "https://images.unsplash.com/photo-1557804506-669a67965ba0?q=80&w=2074&auto=format&fit=crop",
+        projectTitle: "Creative Design",
+        projectDesc: "Advertising creatives & brand assets."
+    },
+    {
+        id: 4,
         company: "Frost Ajans",
-        role: "Graphic Designer & Video Editor",
+        role: "Creative Designer",
         period: "Jun 2023 – Dec 2025",
         location: "Online",
-        description: "Delivered graphic design and video editing services for brands operating in healthcare, construction, and real estate sectors. Designed social media creatives, corporate branding materials, promotional visuals, and campaign assets aligned with each brand's positioning and target audience.\n\nEdited promotional videos, advertisements, and short-form digital content optimized for social media performance. Collaborated with marketing teams to develop visual concepts, ensure brand consistency, and produce trend-aligned content that supported digital campaign objectives and audience engagement.",
+        description: "• Provided end-to-end graphic design and video editing services for brands across healthcare, construction, and real estate sectors.\n• Created high-impact social media visuals, corporate branding materials, and trend-driven promotional content for digital marketing campaigns.",
         color: "from-emerald-600 to-teal-900",
         image: "https://images.unsplash.com/photo-1626785774573-4b799314346d?q=80&w=2070&auto=format&fit=crop",
         projectTitle: "Brand Identity",
@@ -161,15 +173,15 @@ const experiences = [
         ]
     },
     {
-        id: 4,
+        id: 5,
         company: "Selected Ventures",
-        role: "Venture Builder & Designer",
-        period: "2022 – Present",
+        role: "Selected Ventures",
+        period: "2022 – Present | (Online)",
         location: "Online",
-        description: "• StudioBytes: Built and scaled a 900+ member digital community and developed multiple game projects.\n• Simpl.: Designed and directed a minimal, simplicity-focused digital product concept from branding to advertising.\n• Load Find App: Developed and led the full design, UI/UX, frontend, and advertising strategy for a logistics-focused startup.\n• TorqueParfum: Created and developed a consumer car fragrance brand.\n• AugustWear: Developed a tactical and outdoor fashion e-commerce concept.\n• AI Influencer Project: Created an AI-generated virtual influencer, reaching 20,000+ organic users.",
+        description: "• StudioBytes – Built and scaled a 900+ member digital community and developed multiple game projects.\n• Yüküm App – Developed and led the full design, UI/UX, frontend, and advertising strategy for a logistics-focused startup.\n• TorqueParfum – Created and developed a consumer car fragrance brand.\n• AugustWear – Developed a tactical and outdoor fashion e-commerce concept.\n• AI Influencer Project – Created an AI-generated virtual influencer, reaching 20,000+ organic users.",
         color: "from-orange-600 to-red-900",
         image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=1974&auto=format&fit=crop",
-        projectTitle: "StudioBytes & Load Find App",
+        projectTitle: "StudioBytes & Yüküm App",
         projectDesc: "Community building and UX design."
     }
 ];
@@ -189,7 +201,7 @@ const carouselGroups = [
         ]
     },
     {
-        title: "Clothing Brands",
+        title: "Video Edit",
         year: "2025",
         videos: [
             "https://cdn.batikanuz.com.tr/Giyim%20Markalar%C4%B1/augustwear_reels_1_2025.mp4?v=2",
@@ -308,7 +320,7 @@ const Experience = () => {
 
     const getGroupTitle = (title) => {
         if (title === "Music Promos") return t("experience.carouselGroups.musicInfo");
-        if (title === "Clothing Brands") return t("experience.carouselGroups.clothing");
+        if (title === "Clothing Brands" || title === "Video Edit") return t("experience.carouselGroups.clothing");
         if (title === "Influencer Creation") return t("experience.carouselGroups.influencer");
         if (title === "Advertising Content") return t("experience.carouselGroups.advertising");
         return title;
@@ -522,8 +534,9 @@ const ExperienceText = ({ exp, direction }) => {
     const getExpKey = (id) => {
         if (id === 1) return 'zenoz';
         if (id === 2) return 'sanaldrone';
-        if (id === 3) return 'frost';
-        if (id === 4) return 'selected';
+        if (id === 3) return 'fasya';
+        if (id === 4) return 'frost';
+        if (id === 5) return 'selected';
         return '';
     };
     const expKey = getExpKey(exp.id);
