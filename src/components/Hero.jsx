@@ -4,11 +4,11 @@ import { VolumeX, Volume2, Play, Pause, Maximize2, X, ChevronLeft, ChevronRight 
 import { useTranslation } from 'react-i18next';
 
 const heroVideos = [
-    { id: 1, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4?v=2", label: "Intro" },
-    { id: 2, src: "https://cdn.batikanuz.com.tr/videos/3-M%C3%BCzik%20Klibi.mp4?v=2", label: "AI Short Film" },
-    { id: 3, src: "https://cdn.batikanuz.com.tr/videos/4-M%C3%BCzik%20Klibi.mp4?v=2", label: "AI Music Clip 2" },
-    { id: 4, src: "https://cdn.batikanuz.com.tr/videos/realto%20genel.mp4?v=2", label: "App Promo" },
-    { id: 5, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4?v=2", label: "Intro" }
+    { id: 1, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4?v=3", label: "Intro" },
+    { id: 2, src: "https://cdn.batikanuz.com.tr/videos/3-M%C3%BCzik%20Klibi.mp4?v=3", label: "AI Short Film" },
+    { id: 3, src: "https://cdn.batikanuz.com.tr/videos/4-M%C3%BCzik%20Klibi.mp4?v=3", label: "AI Music Clip 2" },
+    { id: 4, src: "https://cdn.batikanuz.com.tr/videos/realto%20genel.mp4?v=3", label: "App Promo" },
+    { id: 5, src: "https://cdn.batikanuz.com.tr/videos/batikanportfolio.mp4?v=3", label: "Intro" }
 ];
 
 const Hero = () => {
